@@ -1,0 +1,337 @@
+sending code 0111 Socket 1 off
+at 18:52 -f /home/pi/switch_on.sh
+at 18:52 + 60 minutes -f /home/pi/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+at 18:50 + 60 minutes -f /home/pi/switch_on.sh
+at 18:50 + 120 minutes -f /home/pi/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+at 18:48 + 60 minutes -f /home/pi/switch_on.sh
+at 18:48 + 120 minutes -f /home/pi/switch_off.sh
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+Duration lights remain on set to: 60 minutes
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-02T19:20:30+00:00', u'nautical_twilight_end': u'2016-09-02T20:02:27+00:00', u'civil_twilight_begin': u'2016-09-02T04:46:01+00:00', u'sunset': u'2016-09-02T18:46:14+00:00', u'sunrise': u'2016-09-02T05:20:17+00:00', u'astronomical_twilight_begin': u'2016-09-02T03:18:13+00:00', u'astronomical_twilight_end': u'2016-09-02T20:48:18+00:00', u'nautical_twilight_begin': u'2016-09-02T04:04:04+00:00', u'solar_noon': u'2016-09-02T12:03:15+00:00', u'day_length': 48357}}
+Results from the surise suset service:
+sunrise 2016-09-02T05:20:17+00:00
+sunset 2016-09-02T18:46:14+00:00
+sunset_time 18:46
+sunset_hours 18
+sunset_mins 46
+timestamp 1472814004
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1472814004&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response
+{u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds: 3600
+offset seconds is greater than zero
+offset_minutes: 60
+offset_hours: 1
+
+on_time: 19:46
+off_time: 20:46
+Strings being sent to the system
+at 19:46 -f /home/pi/switch_on.sh
+at 20:46 -f /home/pi/switch_off.sh
+Making system calls
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+Duration lights remain on set to: 60 minutes
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-03T19:18:10+00:00', u'nautical_twilight_end': u'2016-09-03T19:59:54+00:00', u'civil_twilight_begin': u'2016-09-03T04:47:41+00:00', u'sunset': u'2016-09-03T18:44:01+00:00', u'sunrise': u'2016-09-03T05:21:51+00:00', u'astronomical_twilight_begin': u'2016-09-03T03:20:28+00:00', u'astronomical_twilight_end': u'2016-09-03T20:45:23+00:00', u'nautical_twilight_begin': u'2016-09-03T04:05:57+00:00', u'solar_noon': u'2016-09-03T12:02:56+00:00', u'day_length': 48130}}
+Results from the surise suset service:
+sunrise 2016-09-03T05:21:51+00:00
+sunset 2016-09-03T18:44:01+00:00
+sunset_time 18:44
+sunset_hours 18
+sunset_mins 44
+timestamp 1472900404
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1472900404&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response
+{u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds: 3600
+offset seconds is greater than zero
+offset_minutes: 60
+offset_hours: 1
+
+on_time: 19:44
+off_time: 20:44
+Strings being sent to the system
+at 19:44 -f /home/pi/switch_on.sh
+at 20:44 -f /home/pi/switch_off.sh
+Making system calls
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+Duration lights remain on set to: 60 minutes
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-04T19:15:50+00:00', u'nautical_twilight_end': u'2016-09-04T19:57:22+00:00', u'civil_twilight_begin': u'2016-09-04T04:49:21+00:00', u'sunset': u'2016-09-04T18:41:47+00:00', u'sunrise': u'2016-09-04T05:23:24+00:00', u'astronomical_twilight_begin': u'2016-09-04T03:22:42+00:00', u'astronomical_twilight_end': u'2016-09-04T20:42:29+00:00', u'nautical_twilight_begin': u'2016-09-04T04:07:49+00:00', u'solar_noon': u'2016-09-04T12:02:36+00:00', u'day_length': 47903}}
+Results from the surise suset service:
+sunrise 2016-09-04T05:23:24+00:00
+sunset 2016-09-04T18:41:47+00:00
+sunset_time 18:41
+sunset_hours 18
+sunset_mins 41
+timestamp 1472986804
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1472986804&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response
+{u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds: 3600
+offset seconds is greater than zero
+offset_minutes: 60
+offset_hours: 1
+
+on_time: 19:41
+off_time: 20:41
+Strings being sent to the system
+at 19:41 -f /home/pi/switch_on.sh
+at 20:41 -f /home/pi/switch_off.sh
+Making system calls
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-05T19:13:30+00:00', u'nautical_twilight_end': u'2016-09-05T19:54:51+00:00', u'civil_twilight_begin': u'2016-09-05T04:51:00+00:00', u'sunset': u'2016-09-05T18:39:32+00:00', u'sunrise': u'2016-09-05T05:24:58+00:00', u'astronomical_twilight_begin': u'2016-09-05T03:24:54+00:00', u'astronomical_twilight_end': u'2016-09-05T20:39:37+00:00', u'nautical_twilight_begin': u'2016-09-05T04:09:40+00:00', u'solar_noon': u'2016-09-05T12:02:15+00:00', u'day_length': 47674}}
+Results from the surise suset service:
+sunrise 2016-09-05T05:24:58+00:00
+sunset 2016-09-05T18:39:32+00:00
+sunset year 2016
+sunset month 9
+sunset day 5
+sunset_hours 18
+sunset_mins 39
+sunset_seconds 32
+sunset_microseconds 0
+sunset_tzinfo +00:00
+timestamp 1473073205
+sunset_time 2016-09-05 18:39:32
+early_delta -1 day, 23:50:00
+on_time 2016-09-05 18:29:32
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473073205&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-05 19:29:32
+weather {u'clouds': {u'all': 75}, u'name': u'London', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1473100568, u'message': 0.0427, u'type': 1, u'id': 5091, u'sunrise': 1473052840}, u'weather': [{u'main': u'Rain', u'id': 500, u'icon': u'10d', u'description': u'light rain'}, {u'main': u'Drizzle', u'id': 310, u'icon': u'09d', u'description': u'light intensity drizzle rain'}, {u'main': u'Mist', u'id': 701, u'icon': u'50d', u'description': u'mist'}], u'coord': {u'lat': 51.51, u'lon': -0.13}, u'base': u'stations', u'rain': {u'1h': 0.25}, u'dt': 1473069442, u'main': {u'pressure': 1019, u'temp_min': 288.15, u'temp_max': 290.85, u'temp': 289.34, u'humidity': 88}, u'id': 2643743, u'wind': {u'speed': 2.6, u'deg': 130}, u'cod': 200}
+cloud_cover 75
+cloud_cover_mins 15
+on_time 2016-09-05 19:09:32
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-05 20:14:32
+19:09 09/05/16
+20:14 09/05/16
+Strings being sent to the system
+at 19:09 09/05/16 -f /home/pi/switch_on.sh
+at 20:14 09/05/16 -f /home/pi/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-06T19:11:10+00:00', u'nautical_twilight_end': u'2016-09-06T19:52:19+00:00', u'civil_twilight_begin': u'2016-09-06T04:52:40+00:00', u'sunset': u'2016-09-06T18:37:18+00:00', u'sunrise': u'2016-09-06T05:26:32+00:00', u'astronomical_twilight_begin': u'2016-09-06T03:27:05+00:00', u'astronomical_twilight_end': u'2016-09-06T20:36:45+00:00', u'nautical_twilight_begin': u'2016-09-06T04:11:31+00:00', u'solar_noon': u'2016-09-06T12:01:55+00:00', u'day_length': 47446}}
+Results from the surise suset service:
+sunrise 2016-09-06T05:26:32+00:00
+sunset 2016-09-06T18:37:18+00:00
+sunset year 2016
+sunset month 9
+sunset day 6
+sunset_hours 18
+sunset_mins 37
+sunset_seconds 18
+sunset_microseconds 0
+sunset_tzinfo +00:00
+timestamp 1473159605
+sunset_time 2016-09-06 18:37:18
+early_delta -1 day, 23:50:00
+on_time 2016-09-06 18:27:18
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473159605&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-06 19:27:18
+weather {u'clouds': {u'all': 40}, u'name': u'London', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1473186830, u'message': 0.0419, u'type': 1, u'id': 5091, u'sunrise': 1473139337}, u'weather': [{u'main': u'Drizzle', u'id': 300, u'icon': u'09d', u'description': u'light intensity drizzle'}], u'coord': {u'lat': 51.51, u'lon': -0.13}, u'base': u'stations', u'dt': 1473156451, u'main': {u'pressure': 1024, u'temp_min': 293.15, u'temp_max': 297.04, u'temp': 295.3, u'humidity': 78}, u'id': 2643743, u'wind': {u'speed': 2.1, u'deg': 230}, u'cod': 200}
+cloud_cover 40
+cloud_cover_mins 8
+on_time 2016-09-06 19:07:18
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-06 20:12:18
+19:07 09/06/16
+20:12 09/06/16
+Strings being sent to the system
+at 19:07 09/06/16 -f /home/pi/switch_on.sh
+at 20:12 09/06/16 -f /home/pi/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 1111 socket 1 on
+sending code 1111 socket 1 on
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-07T19:08:50+00:00', u'nautical_twilight_end': u'2016-09-07T19:49:48+00:00', u'civil_twilight_begin': u'2016-09-07T04:54:19+00:00', u'sunset': u'2016-09-07T18:35:03+00:00', u'sunrise': u'2016-09-07T05:28:06+00:00', u'astronomical_twilight_begin': u'2016-09-07T03:29:14+00:00', u'astronomical_twilight_end': u'2016-09-07T20:33:55+00:00', u'nautical_twilight_begin': u'2016-09-07T04:13:21+00:00', u'solar_noon': u'2016-09-07T12:01:34+00:00', u'day_length': 47217}}
+Results from the surise suset service:
+sunrise 2016-09-07T05:28:06+00:00
+sunset 2016-09-07T18:35:03+00:00
+sunset year 2016
+sunset month 9
+sunset day 7
+sunset_hours 18
+sunset_mins 35
+sunset_seconds 3
+sunset_microseconds 0
+sunset_tzinfo +00:00
+timestamp 1473246006
+sunset_time 2016-09-07 18:35:03
+early_delta -1 day, 23:50:00
+on_time 2016-09-07 18:25:03
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473246006&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-07 19:25:03
+weather {u'clouds': {u'all': 40}, u'name': u'London', u'coord': {u'lat': 51.51, u'lon': -0.13}, u'sys': {u'country': u'GB', u'sunset': 1473273090, u'message': 0.0047, u'type': 1, u'id': 5091, u'sunrise': 1473225835}, u'weather': [{u'main': u'Drizzle', u'id': 300, u'icon': u'09d', u'description': u'light intensity drizzle'}], u'cod': 200, u'base': u'cmc stations', u'dt': 1473244890, u'main': {u'pressure': 1019, u'temp_min': 292.15, u'temp_max': 298.71, u'temp': 295.39, u'humidity': 73}, u'id': 2643743, u'wind': {u'speed': 3.1, u'deg': 130}}
+cloud_cover 40
+cloud_cover_mins 8
+on_time 2016-09-07 19:05:03
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-07 20:10:03
+19:05 09/07/16
+20:10 09/07/16
+Strings being sent to the system
+at 19:05 09/07/16 -f /home/pi/switch_on.sh
+at 20:10 09/07/16 -f /home/pi/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-08T19:06:29+00:00', u'nautical_twilight_end': u'2016-09-08T19:47:17+00:00', u'civil_twilight_begin': u'2016-09-08T04:55:58+00:00', u'sunset': u'2016-09-08T18:32:47+00:00', u'sunrise': u'2016-09-08T05:29:40+00:00', u'astronomical_twilight_begin': u'2016-09-08T03:31:22+00:00', u'astronomical_twilight_end': u'2016-09-08T20:31:05+00:00', u'nautical_twilight_begin': u'2016-09-08T04:15:10+00:00', u'solar_noon': u'2016-09-08T12:01:14+00:00', u'day_length': 46987}}
+Results from the surise suset service:
+sunrise 2016-09-08T05:29:40+00:00
+sunset 2016-09-08T18:32:47+00:00
+sunset year 2016
+sunset month 9
+sunset day 8
+sunset_hours 18
+sunset_mins 32
+sunset_seconds 47
+sunset_microseconds 0
+sunset_tzinfo +00:00
+timestamp 1473332404
+sunset_time 2016-09-08 18:32:47
+early_delta -1 day, 23:50:00
+on_time 2016-09-08 18:22:47
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473332404&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-08 19:22:47
+weather {u'clouds': {u'all': 20}, u'name': u'London', u'coord': {u'lat': 51.51, u'lon': -0.13}, u'sys': {u'country': u'GB', u'sunset': 1473359355, u'message': 0.0041, u'type': 1, u'id': 5091, u'sunrise': 1473312329}, u'weather': [{u'main': u'Clouds', u'id': 801, u'icon': u'02d', u'description': u'few clouds'}], u'cod': 200, u'base': u'cmc stations', u'dt': 1473330904, u'main': {u'pressure': 1009, u'temp_min': 292.15, u'temp_max': 295.93, u'temp': 294, u'humidity': 68}, u'id': 2643743, u'wind': {u'speed': 7.2, u'deg': 260}}
+cloud_cover 20
+cloud_cover_mins 4
+on_time 2016-09-08 19:02:47
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-08 20:07:47
+19:02 09/08/16
+20:07 09/08/16
+Strings being sent to the system
+at 19:02 09/08/16 -f /home/pi/switch_on.sh
+at 20:07 09/08/16 -f /home/pi/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
