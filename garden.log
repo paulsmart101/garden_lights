@@ -1,0 +1,718 @@
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-09T19:04:09+00:00', u'nautical_twilight_end': u'2016-09-09T19:44:46+00:00', u'civil_twilight_begin': u'2016-09-09T04:57:37+00:00', u'sunset': u'2016-09-09T18:30:31+00:00', u'sunrise': u'2016-09-09T05:31:14+00:00', u'astronomical_twilight_begin': u'2016-09-09T03:33:29+00:00', u'astronomical_twilight_end': u'2016-09-09T20:28:17+00:00', u'nautical_twilight_begin': u'2016-09-09T04:16:59+00:00', u'solar_noon': u'2016-09-09T12:00:53+00:00', u'day_length': 46757}}
+Results from the surise suset service:
+sunrise 2016-09-09T05:31:14+00:00
+sunset 2016-09-09T18:30:31+00:00
+sunset year 2016
+sunset month 9
+sunset day 9
+sunset_hours 18
+sunset_mins 30
+sunset_seconds 31
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-09 18:30:31
+early_delta 0:10:00
+on_time 2016-09-09 18:20:31
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473418804&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-09 19:20:31
+weather {u'clouds': {u'all': 40}, u'name': u'Alton', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1473445796, u'message': 0.0286, u'type': 1, u'id': 5164, u'sunrise': 1473399050}, u'weather': [{u'main': u'Rain', u'id': 521, u'icon': u'09d', u'description': u'shower rain'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1473418576, u'main': {u'pressure': 1015, u'temp_min': 291.15, u'temp_max': 294.26, u'temp': 293.17, u'humidity': 77}, u'id': 2657408, u'wind': {u'speed': 8.2, u'deg': 190}, u'cod': 200}
+cloud_cover 40
+cloud_cover_mins 8
+on_time 2016-09-09 19:00:31
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-09 20:05:31
+19:00 09/09/16
+20:05 09/09/16
+Strings being sent to the system
+at 19:00 09/09/16 -f /home/pi/garden_lights/switch_on.sh
+at 20:05 09/09/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-10T19:01:48+00:00', u'nautical_twilight_end': u'2016-09-10T19:42:16+00:00', u'civil_twilight_begin': u'2016-09-10T04:59:15+00:00', u'sunset': u'2016-09-10T18:28:15+00:00', u'sunrise': u'2016-09-10T05:32:48+00:00', u'astronomical_twilight_begin': u'2016-09-10T03:35:34+00:00', u'astronomical_twilight_end': u'2016-09-10T20:25:29+00:00', u'nautical_twilight_begin': u'2016-09-10T04:18:47+00:00', u'solar_noon': u'2016-09-10T12:00:32+00:00', u'day_length': 46527}}
+Results from the surise suset service:
+sunrise 2016-09-10T05:32:48+00:00
+sunset 2016-09-10T18:28:15+00:00
+sunset year 2016
+sunset month 9
+sunset day 10
+sunset_hours 18
+sunset_mins 28
+sunset_seconds 15
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-10 18:28:15
+early_delta 0:10:00
+on_time 2016-09-10 18:18:15
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473505209&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-10 19:18:15
+weather {u'clouds': {u'all': 75}, u'name': u'Alton', u'coord': {u'lat': 51.15, u'lon': -0.97}, u'sys': {u'country': u'GB', u'sunset': 1473532060, u'message': 0.0128, u'type': 1, u'id': 5163, u'sunrise': 1473485544}, u'weather': [{u'main': u'Drizzle', u'id': 310, u'icon': u'09d', u'description': u'light intensity drizzle rain'}, {u'main': u'Rain', u'id': 500, u'icon': u'10d', u'description': u'light rain'}], u'cod': 200, u'base': u'cmc stations', u'dt': 1473504861, u'main': {u'pressure': 1012, u'temp_min': 290.15, u'temp_max': 293.15, u'temp': 291.61, u'humidity': 93}, u'id': 2657408, u'wind': {u'speed': 5.7, u'deg': 180}}
+cloud_cover 75
+cloud_cover_mins 15
+on_time 2016-09-10 18:58:15
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-10 20:03:15
+18:58 09/10/16
+20:03 09/10/16
+Strings being sent to the system
+at 18:58 09/10/16 -f /home/pi/garden_lights/switch_on.sh
+at 20:03 09/10/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-11T18:59:27+00:00', u'nautical_twilight_end': u'2016-09-11T19:39:46+00:00', u'civil_twilight_begin': u'2016-09-11T05:00:53+00:00', u'sunset': u'2016-09-11T18:25:59+00:00', u'sunrise': u'2016-09-11T05:34:22+00:00', u'astronomical_twilight_begin': u'2016-09-11T03:37:38+00:00', u'astronomical_twilight_end': u'2016-09-11T20:22:43+00:00', u'nautical_twilight_begin': u'2016-09-11T04:20:35+00:00', u'solar_noon': u'2016-09-11T12:00:10+00:00', u'day_length': 46297}}
+Results from the surise suset service:
+sunrise 2016-09-11T05:34:22+00:00
+sunset 2016-09-11T18:25:59+00:00
+sunset year 2016
+sunset month 9
+sunset day 11
+sunset_hours 18
+sunset_mins 25
+sunset_seconds 59
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-11 18:25:59
+early_delta 0:10:00
+on_time 2016-09-11 18:15:59
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473591604&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-11 19:15:59
+weather {u'clouds': {u'all': 40}, u'name': u'Alton', u'coord': {u'lat': 51.15, u'lon': -0.97}, u'sys': {u'country': u'GB', u'sunset': 1473618324, u'message': 0.0036, u'type': 1, u'id': 5163, u'sunrise': 1473572038}, u'weather': [{u'main': u'Clouds', u'id': 802, u'icon': u'03d', u'description': u'scattered clouds'}], u'cod': 200, u'base': u'cmc stations', u'dt': 1473591335, u'main': {u'pressure': 1018, u'temp_min': 288.71, u'temp_max': 293.71, u'temp': 290.45, u'humidity': 63}, u'id': 2657408, u'wind': {u'speed': 2.6, u'deg': 140}}
+cloud_cover 40
+cloud_cover_mins 8
+on_time 2016-09-11 18:55:59
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-11 20:00:59
+18:55 09/11/16
+20:00 09/11/16
+Strings being sent to the system
+at 18:55 09/11/16 -f /home/pi/garden_lights/switch_on.sh
+at 20:00 09/11/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-12T18:57:07+00:00', u'nautical_twilight_end': u'2016-09-12T19:37:17+00:00', u'civil_twilight_begin': u'2016-09-12T05:02:32+00:00', u'sunset': u'2016-09-12T18:23:43+00:00', u'sunrise': u'2016-09-12T05:35:56+00:00', u'astronomical_twilight_begin': u'2016-09-12T03:39:41+00:00', u'astronomical_twilight_end': u'2016-09-12T20:19:58+00:00', u'nautical_twilight_begin': u'2016-09-12T04:22:21+00:00', u'solar_noon': u'2016-09-12T11:59:49+00:00', u'day_length': 46067}}
+Results from the surise suset service:
+sunrise 2016-09-12T05:35:56+00:00
+sunset 2016-09-12T18:23:43+00:00
+sunset year 2016
+sunset month 9
+sunset day 12
+sunset_hours 18
+sunset_mins 23
+sunset_seconds 43
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-12 18:23:43
+early_delta 0:10:00
+on_time 2016-09-12 18:13:43
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473678004&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-12 19:13:43
+weather {u'clouds': {u'all': 75}, u'name': u'Alton', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1473704588, u'message': 0.0312, u'type': 1, u'id': 5164, u'sunrise': 1473658532}, u'weather': [{u'main': u'Rain', u'id': 520, u'icon': u'09d', u'description': u'light intensity shower rain'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1473677412, u'main': {u'pressure': 1013, u'temp_min': 291.15, u'temp_max': 295.93, u'temp': 293.45, u'humidity': 77}, u'id': 2657408, u'wind': {u'speed': 5.1, u'deg': 180}, u'cod': 200}
+cloud_cover 75
+cloud_cover_mins 15
+on_time 2016-09-12 18:53:43
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-12 19:58:43
+18:53 09/12/16
+19:58 09/12/16
+Strings being sent to the system
+at 18:53 09/12/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:58 09/12/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-13T18:54:46+00:00', u'nautical_twilight_end': u'2016-09-13T19:34:48+00:00', u'civil_twilight_begin': u'2016-09-13T05:04:09+00:00', u'sunset': u'2016-09-13T18:21:26+00:00', u'sunrise': u'2016-09-13T05:37:30+00:00', u'astronomical_twilight_begin': u'2016-09-13T03:41:42+00:00', u'astronomical_twilight_end': u'2016-09-13T20:17:13+00:00', u'nautical_twilight_begin': u'2016-09-13T04:24:08+00:00', u'solar_noon': u'2016-09-13T11:59:28+00:00', u'day_length': 45836}}
+Results from the surise suset service:
+sunrise 2016-09-13T05:37:30+00:00
+sunset 2016-09-13T18:21:26+00:00
+sunset year 2016
+sunset month 9
+sunset day 13
+sunset_hours 18
+sunset_mins 21
+sunset_seconds 26
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-13 18:21:26
+early_delta 0:10:00
+on_time 2016-09-13 18:11:26
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473764405&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-13 19:11:26
+weather {u'clouds': {u'all': 68}, u'name': u'Alton', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1473790851, u'message': 0.0299, u'type': 1, u'id': 5093, u'sunrise': 1473745027}, u'weather': [{u'main': u'Clouds', u'id': 803, u'icon': u'04d', u'description': u'broken clouds'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1473764406, u'main': {u'pressure': 1009, u'temp_min': 296.15, u'temp_max': 302.59, u'temp': 299.54, u'humidity': 48}, u'id': 2657408, u'wind': {u'speed': 4.6, u'deg': 90}, u'cod': 200}
+cloud_cover 68
+cloud_cover_mins 13
+on_time 2016-09-13 18:51:26
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-13 19:56:26
+18:51 09/13/16
+19:56 09/13/16
+Strings being sent to the system
+at 18:51 09/13/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:56 09/13/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-14T18:52:26+00:00', u'nautical_twilight_end': u'2016-09-14T19:32:19+00:00', u'civil_twilight_begin': u'2016-09-14T05:05:47+00:00', u'sunset': u'2016-09-14T18:19:09+00:00', u'sunrise': u'2016-09-14T05:39:04+00:00', u'astronomical_twilight_begin': u'2016-09-14T03:43:43+00:00', u'astronomical_twilight_end': u'2016-09-14T20:14:30+00:00', u'nautical_twilight_begin': u'2016-09-14T04:25:54+00:00', u'solar_noon': u'2016-09-14T11:59:06+00:00', u'day_length': 45605}}
+Results from the surise suset service:
+sunrise 2016-09-14T05:39:04+00:00
+sunset 2016-09-14T18:19:09+00:00
+sunset year 2016
+sunset month 9
+sunset day 14
+sunset_hours 18
+sunset_mins 19
+sunset_seconds 9
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-14 18:19:09
+early_delta 0:10:00
+on_time 2016-09-14 18:09:09
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473850804&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-14 19:09:09
+weather {u'clouds': {u'all': 20}, u'name': u'Alton', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1473877115, u'message': 0.0323, u'type': 1, u'id': 5163, u'sunrise': 1473831521}, u'weather': [{u'main': u'Haze', u'id': 721, u'icon': u'50d', u'description': u'haze'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1473850711, u'main': {u'pressure': 1010, u'temp_min': 294.15, u'temp_max': 301.48, u'temp': 297.5, u'humidity': 69}, u'id': 2657408, u'wind': {u'speed': 4.6, u'deg': 150}, u'cod': 200}
+cloud_cover 20
+cloud_cover_mins 4
+on_time 2016-09-14 18:49:09
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-14 19:54:09
+18:49 09/14/16
+19:54 09/14/16
+Strings being sent to the system
+at 18:49 09/14/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:54 09/14/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-15T18:50:05+00:00', u'nautical_twilight_end': u'2016-09-15T19:29:51+00:00', u'civil_twilight_begin': u'2016-09-15T05:07:25+00:00', u'sunset': u'2016-09-15T18:16:52+00:00', u'sunrise': u'2016-09-15T05:40:38+00:00', u'astronomical_twilight_begin': u'2016-09-15T03:45:42+00:00', u'astronomical_twilight_end': u'2016-09-15T20:11:48+00:00', u'nautical_twilight_begin': u'2016-09-15T04:27:39+00:00', u'solar_noon': u'2016-09-15T11:58:45+00:00', u'day_length': 45374}}
+Results from the surise suset service:
+sunrise 2016-09-15T05:40:38+00:00
+sunset 2016-09-15T18:16:52+00:00
+sunset year 2016
+sunset month 9
+sunset day 15
+sunset_hours 18
+sunset_mins 16
+sunset_seconds 52
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-15 18:16:52
+early_delta 0:10:00
+on_time 2016-09-15 18:06:52
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1473937204&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-15 19:06:52
+weather {u'clouds': {u'all': 8}, u'name': u'Alton', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1473963378, u'message': 0.0293, u'type': 1, u'id': 5093, u'sunrise': 1473918015}, u'weather': [{u'main': u'Haze', u'id': 721, u'icon': u'50d', u'description': u'haze'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1473937097, u'main': {u'pressure': 1009, u'temp_min': 293.15, u'temp_max': 299.82, u'temp': 296.53, u'humidity': 64}, u'id': 2657408, u'wind': {u'speed': 3.1, u'deg': 60}, u'cod': 200}
+cloud_cover 8
+cloud_cover_mins 1
+on_time 2016-09-15 18:46:52
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-15 19:51:52
+18:46 09/15/16
+19:51 09/15/16
+Strings being sent to the system
+at 18:46 09/15/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:51 09/15/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-16T18:47:45+00:00', u'nautical_twilight_end': u'2016-09-16T19:27:24+00:00', u'civil_twilight_begin': u'2016-09-16T05:09:02+00:00', u'sunset': u'2016-09-16T18:14:35+00:00', u'sunrise': u'2016-09-16T05:42:12+00:00', u'astronomical_twilight_begin': u'2016-09-16T03:47:40+00:00', u'astronomical_twilight_end': u'2016-09-16T20:09:07+00:00', u'nautical_twilight_begin': u'2016-09-16T04:29:24+00:00', u'solar_noon': u'2016-09-16T11:58:24+00:00', u'day_length': 45143}}
+Results from the surise suset service:
+sunrise 2016-09-16T05:42:12+00:00
+sunset 2016-09-16T18:14:35+00:00
+sunset year 2016
+sunset month 9
+sunset day 16
+sunset_hours 18
+sunset_mins 14
+sunset_seconds 35
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-16 18:14:35
+early_delta 0:10:00
+on_time 2016-09-16 18:04:35
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474023604&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-16 19:04:35
+weather {u'clouds': {u'all': 12}, u'name': u'Alton', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1474049641, u'message': 0.0317, u'type': 1, u'id': 5093, u'sunrise': 1474004509}, u'weather': [{u'main': u'Rain', u'id': 520, u'icon': u'09d', u'description': u'light intensity shower rain'}, {u'main': u'Drizzle', u'id': 300, u'icon': u'09d', u'description': u'light intensity drizzle'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'rain': {u'1h': 1.24}, u'dt': 1474023497, u'main': {u'pressure': 1012, u'temp_min': 287.04, u'temp_max': 289.82, u'temp': 288.43, u'humidity': 87}, u'id': 2657408, u'wind': {u'speed': 3.1, u'deg': 310}, u'cod': 200}
+cloud_cover 12
+cloud_cover_mins 2
+on_time 2016-09-16 18:44:35
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-16 19:49:35
+18:44 09/16/16
+19:49 09/16/16
+Strings being sent to the system
+at 18:44 09/16/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:49 09/16/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 45
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-17T18:45:25+00:00', u'nautical_twilight_end': u'2016-09-17T19:24:57+00:00', u'civil_twilight_begin': u'2016-09-17T05:10:39+00:00', u'sunset': u'2016-09-17T18:12:18+00:00', u'sunrise': u'2016-09-17T05:43:46+00:00', u'astronomical_twilight_begin': u'2016-09-17T03:49:37+00:00', u'astronomical_twilight_end': u'2016-09-17T20:06:27+00:00', u'nautical_twilight_begin': u'2016-09-17T04:31:08+00:00', u'solar_noon': u'2016-09-17T11:58:02+00:00', u'day_length': 44912}}
+Results from the surise suset service:
+sunrise 2016-09-17T05:43:46+00:00
+sunset 2016-09-17T18:12:18+00:00
+sunset year 2016
+sunset month 9
+sunset day 17
+sunset_hours 18
+sunset_mins 12
+sunset_seconds 18
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-17 18:12:18
+early_delta 0:10:00
+on_time 2016-09-17 18:02:18
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474110004&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-17 19:02:18
+weather {u'clouds': {u'all': 90}, u'name': u'Alton', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1474135904, u'message': 0.0306, u'type': 1, u'id': 5093, u'sunrise': 1474091004}, u'weather': [{u'main': u'Haze', u'id': 721, u'icon': u'50d', u'description': u'haze'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1474109933, u'main': {u'pressure': 1020, u'temp_min': 285.15, u'temp_max': 289.26, u'temp': 287.25, u'humidity': 82}, u'id': 2657408, u'wind': {u'speed': 4.6, u'deg': 330}, u'cod': 200}
+cloud_cover 90
+cloud_cover_mins 18
+on_time 2016-09-17 18:42:18
+minutes_duration_on 45
+duration_delta 0:45:00
+off_time 2016-09-17 19:47:18
+18:42 09/17/16
+19:47 09/17/16
+Strings being sent to the system
+at 18:42 09/17/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:47 09/17/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-18T18:43:05+00:00', u'nautical_twilight_end': u'2016-09-18T19:22:30+00:00', u'civil_twilight_begin': u'2016-09-18T05:12:16+00:00', u'sunset': u'2016-09-18T18:10:01+00:00', u'sunrise': u'2016-09-18T05:45:21+00:00', u'astronomical_twilight_begin': u'2016-09-18T03:51:34+00:00', u'astronomical_twilight_end': u'2016-09-18T20:03:48+00:00', u'nautical_twilight_begin': u'2016-09-18T04:32:51+00:00', u'solar_noon': u'2016-09-18T11:57:41+00:00', u'day_length': 44680}}
+Results from the surise suset service:
+sunrise 2016-09-18T05:45:21+00:00
+sunset 2016-09-18T18:10:01+00:00
+sunset year 2016
+sunset month 9
+sunset day 18
+sunset_hours 18
+sunset_mins 10
+sunset_seconds 1
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-18 18:10:01
+early_delta 0:10:00
+on_time 2016-09-18 18:00:01
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474196405&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-18 19:00:01
+weather {u'clouds': {u'all': 90}, u'name': u'Alton', u'visibility': 10000, u'sys': {u'country': u'GB', u'sunset': 1474222167, u'message': 0.0353, u'type': 1, u'id': 5093, u'sunrise': 1474177498}, u'weather': [{u'main': u'Clouds', u'id': 804, u'icon': u'04d', u'description': u'overcast clouds'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1474196380, u'main': {u'pressure': 1022, u'temp_min': 288.15, u'temp_max': 293.71, u'temp': 290.52, u'humidity': 72}, u'id': 2657408, u'wind': {u'speed': 2.6, u'deg': 330}, u'cod': 200}
+cloud_cover 90
+cloud_cover_mins 18
+on_time 2016-09-18 18:40:01
+minutes_duration_on 60
+duration_delta 1:00:00
+off_time 2016-09-18 20:00:01
+18:40 09/18/16
+20:00 09/18/16
+Strings being sent to the system
+at 18:40 09/18/16 -f /home/pi/garden_lights/switch_on.sh
+at 20:00 09/18/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-19T18:40:46+00:00', u'nautical_twilight_end': u'2016-09-19T19:20:04+00:00', u'civil_twilight_begin': u'2016-09-19T05:13:53+00:00', u'sunset': u'2016-09-19T18:07:44+00:00', u'sunrise': u'2016-09-19T05:46:55+00:00', u'astronomical_twilight_begin': u'2016-09-19T03:53:29+00:00', u'astronomical_twilight_end': u'2016-09-19T20:01:10+00:00', u'nautical_twilight_begin': u'2016-09-19T04:34:35+00:00', u'solar_noon': u'2016-09-19T11:57:19+00:00', u'day_length': 44449}}
+Results from the surise suset service:
+sunrise 2016-09-19T05:46:55+00:00
+sunset 2016-09-19T18:07:44+00:00
+sunset year 2016
+sunset month 9
+sunset day 19
+sunset_hours 18
+sunset_mins 7
+sunset_seconds 44
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-19 18:07:44
+early_delta 0:10:00
+on_time 2016-09-19 17:57:44
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474282804&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-19 18:57:44
+weather {u'clouds': {u'all': 92}, u'name': u'Alton', u'coord': {u'lat': 51.15, u'lon': -0.97}, u'sys': {u'country': u'GB', u'sunset': 1474308430, u'message': 0.1605, u'type': 3, u'id': 1452420353, u'sunrise': 1474263993}, u'weather': [{u'main': u'Clouds', u'id': 804, u'icon': u'04d', u'description': u'overcast clouds'}], u'cod': 200, u'base': u'stations', u'dt': 1474282698, u'main': {u'pressure': 1016.5, u'temp_min': 293.65, u'temp_max': 295.93, u'temp': 294.67, u'humidity': 72}, u'id': 2657408, u'wind': {u'speed': 2.58, u'deg': 8.5022}}
+cloud_cover 92
+cloud_cover_mins 18
+on_time 2016-09-19 18:37:44
+minutes_duration_on 60
+duration_delta 1:00:00
+off_time 2016-09-19 19:57:44
+18:37 09/19/16
+19:57 09/19/16
+Strings being sent to the system
+at 18:37 09/19/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:57 09/19/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-21T18:36:08+00:00', u'nautical_twilight_end': u'2016-09-21T19:15:14+00:00', u'civil_twilight_begin': u'2016-09-21T05:17:06+00:00', u'sunset': u'2016-09-21T18:03:09+00:00', u'sunrise': u'2016-09-21T05:50:05+00:00', u'astronomical_twilight_begin': u'2016-09-21T03:57:16+00:00', u'astronomical_twilight_end': u'2016-09-21T19:55:58+00:00', u'nautical_twilight_begin': u'2016-09-21T04:38:00+00:00', u'solar_noon': u'2016-09-21T11:56:37+00:00', u'day_length': 43984}}
+Results from the surise suset service:
+sunrise 2016-09-21T05:50:05+00:00
+sunset 2016-09-21T18:03:09+00:00
+sunset year 2016
+sunset month 9
+sunset day 21
+sunset_hours 18
+sunset_mins 3
+sunset_seconds 9
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-21 18:03:09
+early_delta 0:10:00
+on_time 2016-09-21 17:53:09
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474455603&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-21 18:53:09
+weather {u'clouds': {u'all': 68}, u'name': u'Alton', u'rain': {u'3h': 0.065}, u'sys': {u'country': u'GB', u'sunset': 1474480956, u'message': 0.1766, u'type': 3, u'id': 1451413658, u'sunrise': 1474436982}, u'weather': [{u'main': u'Clouds', u'id': 803, u'icon': u'04d', u'description': u'broken clouds'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1474455707, u'main': {u'pressure': 1019.7, u'temp_min': 292.25, u'temp_max': 294.82, u'temp': 293.54, u'humidity': 78}, u'id': 2657408, u'wind': {u'gust': 1, u'speed': 0.3, u'deg': 150}, u'cod': 200}
+cloud_cover 68
+cloud_cover_mins 13
+on_time 2016-09-21 18:33:09
+minutes_duration_on 60
+duration_delta 1:00:00
+off_time 2016-09-21 19:53:09
+18:33 09/21/16
+19:53 09/21/16
+Strings being sent to the system
+at 18:33 09/21/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:53 09/21/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-22T18:33:49+00:00', u'nautical_twilight_end': u'2016-09-22T19:12:50+00:00', u'civil_twilight_begin': u'2016-09-22T05:18:43+00:00', u'sunset': u'2016-09-22T18:00:52+00:00', u'sunrise': u'2016-09-22T05:51:40+00:00', u'astronomical_twilight_begin': u'2016-09-22T03:59:08+00:00', u'astronomical_twilight_end': u'2016-09-22T19:53:23+00:00', u'nautical_twilight_begin': u'2016-09-22T04:39:42+00:00', u'solar_noon': u'2016-09-22T11:56:16+00:00', u'day_length': 43752}}
+Results from the surise suset service:
+sunrise 2016-09-22T05:51:40+00:00
+sunset 2016-09-22T18:00:52+00:00
+sunset year 2016
+sunset month 9
+sunset day 22
+sunset_hours 18
+sunset_mins 0
+sunset_seconds 52
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-22 18:00:52
+early_delta 0:10:00
+on_time 2016-09-22 17:50:52
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474542004&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-22 18:50:52
+weather {u'clouds': {u'all': 12}, u'name': u'Alton', u'rain': {}, u'sys': {u'country': u'GB', u'sunset': 1474567219, u'message': 0.0025, u'type': 3, u'id': 1452420353, u'sunrise': 1474523477}, u'weather': [{u'main': u'Clouds', u'id': 801, u'icon': u'02d', u'description': u'few clouds'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1474541990, u'main': {u'pressure': 1014.3, u'temp_min': 292.04, u'temp_max': 295.93, u'temp': 293.65, u'humidity': 72}, u'id': 2657408, u'wind': {u'speed': 4.53, u'deg': 214.501}, u'cod': 200}
+cloud_cover 12
+cloud_cover_mins 2
+on_time 2016-09-22 18:30:52
+minutes_duration_on 60
+duration_delta 1:00:00
+off_time 2016-09-22 19:50:52
+18:30 09/22/16
+19:50 09/22/16
+Strings being sent to the system
+at 18:30 09/22/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:50 09/22/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-23T18:31:30+00:00', u'nautical_twilight_end': u'2016-09-23T19:10:27+00:00', u'civil_twilight_begin': u'2016-09-23T05:20:19+00:00', u'sunset': u'2016-09-23T17:58:35+00:00', u'sunrise': u'2016-09-23T05:53:15+00:00', u'astronomical_twilight_begin': u'2016-09-23T04:01:00+00:00', u'astronomical_twilight_end': u'2016-09-23T19:50:50+00:00', u'nautical_twilight_begin': u'2016-09-23T04:41:23+00:00', u'solar_noon': u'2016-09-23T11:55:55+00:00', u'day_length': 43520}}
+Results from the surise suset service:
+sunrise 2016-09-23T05:53:15+00:00
+sunset 2016-09-23T17:58:35+00:00
+sunset year 2016
+sunset month 9
+sunset day 23
+sunset_hours 17
+sunset_mins 58
+sunset_seconds 35
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-23 17:58:35
+early_delta 0:10:00
+on_time 2016-09-23 17:48:35
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474628405&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-23 18:48:35
+weather {u'clouds': {u'all': 0}, u'name': u'Alton', u'rain': {}, u'sys': {u'country': u'GB', u'sunset': 1474653483, u'message': 0.0066, u'type': 3, u'id': 1452420353, u'sunrise': 1474609972}, u'weather': [{u'main': u'Clear', u'id': 800, u'icon': u'01d', u'description': u'clear sky'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1474628178, u'main': {u'pressure': 1020.4, u'temp_min': 289.25, u'temp_max': 292.59, u'temp': 291.39, u'humidity': 56}, u'id': 2657408, u'wind': {u'speed': 3.11, u'deg': 204.001}, u'cod': 200}
+cloud_cover 0
+cloud_cover_mins 0
+on_time 2016-09-23 18:28:35
+minutes_duration_on 60
+duration_delta 1:00:00
+off_time 2016-09-23 19:48:35
+18:28 09/23/16
+19:48 09/23/16
+Strings being sent to the system
+at 18:28 09/23/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:48 09/23/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-24T18:29:12+00:00', u'nautical_twilight_end': u'2016-09-24T19:08:04+00:00', u'civil_twilight_begin': u'2016-09-24T05:21:56+00:00', u'sunset': u'2016-09-24T17:56:18+00:00', u'sunrise': u'2016-09-24T05:54:50+00:00', u'astronomical_twilight_begin': u'2016-09-24T04:02:50+00:00', u'astronomical_twilight_end': u'2016-09-24T19:48:18+00:00', u'nautical_twilight_begin': u'2016-09-24T04:43:04+00:00', u'solar_noon': u'2016-09-24T11:55:34+00:00', u'day_length': 43288}}
+Results from the surise suset service:
+sunrise 2016-09-24T05:54:50+00:00
+sunset 2016-09-24T17:56:18+00:00
+sunset year 2016
+sunset month 9
+sunset day 24
+sunset_hours 17
+sunset_mins 56
+sunset_seconds 18
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-24 17:56:18
+early_delta 0:10:00
+on_time 2016-09-24 17:46:18
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474714804&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-24 18:46:18
+weather {u'clouds': {u'all': 64}, u'name': u'Alton', u'coord': {u'lat': 51.15, u'lon': -0.97}, u'sys': {u'country': u'GB', u'sunset': 1474739746, u'message': 0.0035, u'type': 3, u'id': 1452420353, u'sunrise': 1474696468}, u'weather': [{u'main': u'Clouds', u'id': 803, u'icon': u'04d', u'description': u'broken clouds'}], u'cod': 200, u'base': u'stations', u'dt': 1474714690, u'main': {u'pressure': 1013, u'temp_min': 293.15, u'temp_max': 295.93, u'temp': 294.61, u'humidity': 59}, u'id': 2657408, u'wind': {u'speed': 8.72, u'deg': 189.001}}
+cloud_cover 64
+cloud_cover_mins 12
+on_time 2016-09-24 18:26:18
+minutes_duration_on 60
+duration_delta 1:00:00
+off_time 2016-09-24 19:46:18
+18:26 09/24/16
+19:46 09/24/16
+Strings being sent to the system
+at 18:26 09/24/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:46 09/24/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-25T18:26:55+00:00', u'nautical_twilight_end': u'2016-09-25T19:05:42+00:00', u'civil_twilight_begin': u'2016-09-25T05:23:32+00:00', u'sunset': u'2016-09-25T17:54:02+00:00', u'sunrise': u'2016-09-25T05:56:25+00:00', u'astronomical_twilight_begin': u'2016-09-25T04:04:40+00:00', u'astronomical_twilight_end': u'2016-09-25T19:45:47+00:00', u'nautical_twilight_begin': u'2016-09-25T04:44:45+00:00', u'solar_noon': u'2016-09-25T11:55:13+00:00', u'day_length': 43057}}
+Results from the surise suset service:
+sunrise 2016-09-25T05:56:25+00:00
+sunset 2016-09-25T17:54:02+00:00
+sunset year 2016
+sunset month 9
+sunset day 25
+sunset_hours 17
+sunset_mins 54
+sunset_seconds 2
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-25 17:54:02
+early_delta 0:10:00
+on_time 2016-09-25 17:44:02
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474801204&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-25 18:44:02
+weather {u'clouds': {u'all': 24}, u'name': u'Alton', u'rain': {u'3h': 0.025}, u'sys': {u'country': u'GB', u'sunset': 1474826010, u'message': 0.0409, u'type': 3, u'id': 1452420353, u'sunrise': 1474782963}, u'weather': [{u'main': u'Clouds', u'id': 801, u'icon': u'02d', u'description': u'few clouds'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1474801158, u'main': {u'pressure': 1009.9, u'temp_min': 288.71, u'temp_max': 294.26, u'temp': 291.01, u'humidity': 70}, u'id': 2657408, u'wind': {u'speed': 5.98, u'deg': 251.002}, u'cod': 200}
+cloud_cover 24
+cloud_cover_mins 4
+on_time 2016-09-25 18:24:02
+minutes_duration_on 60
+duration_delta 1:00:00
+off_time 2016-09-25 19:44:02
+18:24 09/25/16
+19:44 09/25/16
+Strings being sent to the system
+at 18:24 09/25/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:44 09/25/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+minutes_on_before_sunset 10
+minutes_duration_on 60
+minutes_early_for_cloud 20
+Making request for surise and sunset times
+today: {u'status': u'OK', u'results': {u'civil_twilight_end': u'2016-09-26T18:24:38+00:00', u'nautical_twilight_end': u'2016-09-26T19:03:21+00:00', u'civil_twilight_begin': u'2016-09-26T05:25:08+00:00', u'sunset': u'2016-09-26T17:51:45+00:00', u'sunrise': u'2016-09-26T05:58:01+00:00', u'astronomical_twilight_begin': u'2016-09-26T04:06:29+00:00', u'astronomical_twilight_end': u'2016-09-26T19:43:17+00:00', u'nautical_twilight_begin': u'2016-09-26T04:46:25+00:00', u'solar_noon': u'2016-09-26T11:54:53+00:00', u'day_length': 42824}}
+Results from the surise suset service:
+sunrise 2016-09-26T05:58:01+00:00
+sunset 2016-09-26T17:51:45+00:00
+sunset year 2016
+sunset month 9
+sunset day 26
+sunset_hours 17
+sunset_mins 51
+sunset_seconds 45
+sunset_microseconds 0
+sunset_tzinfo +00:00
+sunset_time 2016-09-26 17:51:45
+early_delta 0:10:00
+on_time 2016-09-26 17:41:45
+URL for timezone: https://maps.googleapis.com/maps/api/timezone/json?location=51.150719,-0.973177&timestamp=1474887604&key=AIzaSyDt4CqScO30JJoHGv-XEaGlYSI5ycHvKg4
+timezone response {u'status': u'OK', u'dstOffset': 3600, u'rawOffset': 0, u'timeZoneName': u'British Summer Time', u'timeZoneId': u'Europe/London'}
+offset_seconds 3600
+timezone_delta 1:00:00
+on_time 2016-09-26 18:41:45
+weather {u'clouds': {u'all': 88}, u'name': u'Alton', u'rain': {}, u'sys': {u'country': u'GB', u'sunset': 1474912273, u'message': 0.0055, u'type': 3, u'id': 1452420353, u'sunrise': 1474869459}, u'weather': [{u'main': u'Clouds', u'id': 804, u'icon': u'04d', u'description': u'overcast clouds'}], u'coord': {u'lat': 51.15, u'lon': -0.97}, u'base': u'stations', u'dt': 1474887379, u'main': {u'pressure': 1017, u'temp_min': 290.45, u'temp_max': 294.26, u'temp': 291.95, u'humidity': 73}, u'id': 2657408, u'wind': {u'speed': 8.42, u'deg': 201.001}, u'cod': 200}
+cloud_cover 88
+cloud_cover_mins 17
+on_time 2016-09-26 18:21:45
+minutes_duration_on 60
+duration_delta 1:00:00
+off_time 2016-09-26 19:41:45
+18:21 09/26/16
+19:41 09/26/16
+Strings being sent to the system
+at 18:21 09/26/16 -f /home/pi/garden_lights/switch_on.sh
+at 19:41 09/26/16 -f /home/pi/garden_lights/switch_off.sh
+<Response [200]>
+sending code 1111 socket 1 on
+sending code 0111 Socket 1 off
+sending code 0111 Socket 1 off
+['/home/pi/garden_lights/socket_switch.py', '1', 'on']
+in setup_pins
+hit return key to send socket 1 ON codesending code 1111 socket 1 on
+hit return key to send socket 1 OFF code['/home/pi/garden_lights/socket_switch.py', '1', 'on']
+in setup_pins
+sending code 1111 socket 1 on
+['/home/pi/garden_lights/socket_switch.py', '1', 'on']
+in setup_pins
+sending code 1111 socket 1 on
+['/home/pi/garden_lights/socket_switch.py', '1', 'off']
+in setup_pins
+sending code 0111 Socket 1 off
+['/home/pi/garden_lights/socket_switch.py', '1', 'on']
+in setup_pins
+sending code 1111 socket 1 on
+['/home/pi/garden_lights/socket_switch.py', '1', 'off']
+in setup_pins
+sending code 0111 Socket 1 off

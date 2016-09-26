@@ -1,1 +1,5 @@
-python /home/pi/garden_lights/socket_on.py 2>&1 >>/home/pi/garden_lights/garden.log
+python /home/pi/garden_lights/socket_switch.py 1 on 2>&1 >>/home/pi/garden_lights/garden.log
+python /home/pi/garden_lights/socket_switch.py 2 on 2>&1 >>/home/pi/garden_lights/garden.log
+python /home/pi/garden_lights/socket_switch.py 2 on 2>&1 >>/home/pi/garden_lights/garden.log
+python /home/pi/garden_lights/socket_switch.py 2 on 2>&1 >>/home/pi/garden_lights/garden.log
+python /home/pi/garden_lights/socket_switch.py 2 on 2>&1 >>/home/pi/garden_lights/garden.log

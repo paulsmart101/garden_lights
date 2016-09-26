@@ -20,4 +20,4 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-0 12 * * * python /home/pi/garden_lights/schedule_lights.py 2>&1 >>/home/pi/garden_lights/garden.log
+0 12 * * * python /home/pi/garden_lights/schedule_lights_on.py 2>&1 >>/home/pi/garden_lights/garden.log

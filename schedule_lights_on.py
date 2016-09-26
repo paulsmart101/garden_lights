@@ -6,7 +6,7 @@ import datetime
 
 debug = True
 minutes_on_before_sunset = 10
-minutes_duration_on = 45
+minutes_duration_on = 60
 minutes_early_for_cloud = 20
 
 if debug:

@@ -1,0 +1,3 @@
+python socket_switch.py 1 on now + 1 minute
+python socket_switch.py 1 on now + 1 minute
+python /home/pi/garden_lights/socket_switch.py 1 on now + 1 minute
