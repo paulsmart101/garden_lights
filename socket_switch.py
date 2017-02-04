@@ -65,6 +65,30 @@ def socket_two_off():
 	GPIO.output (15, True)
 	GPIO.output (16, True)
 	GPIO.output (13, False)
+def socket_three_on():
+	print "sending code 1101 socket 3 on"
+	GPIO.output (11, True)
+	GPIO.output (15, True)
+	GPIO.output (16, False)
+	GPIO.output (13, True)
+def socket_three_off():
+	print "sending code 0101 socket 3 off"
+	GPIO.output (11, False)
+	GPIO.output (15, True)
+	GPIO.output (16, False)
+	GPIO.output (13, True)
+def socket_four_on():
+	print "sending code 1100 socket 4 on"
+	GPIO.output (11, True)
+	GPIO.output (15, True)
+	GPIO.output (16, False)
+	GPIO.output (13, False)
+def socket_four_off():
+	print "sending code 0100 socket 4 off"
+	GPIO.output (11, False)
+	GPIO.output (15, True)
+	GPIO.output (16, False)
+	GPIO.output (13, False)
 def socket_all_on():
 	print "sending code 1011 ALL on"
 	GPIO.output (11, True)
@@ -86,10 +110,27 @@ if sys.argv[1] == "1":
 		socket_one_on()
 	else:
 		socket_one_off()
+elif sys.argv[1] == "2":
+    if sys.argv[2] == "on":
+        socket_two_on()
+    else:
+        socket_two_off()
+elif sys.argv[1] == "3":
+    if sys.argv[2] == "on":
+        socket_three_on()
+    else:
+        socket_three_off()
+elif sys.argv[1] == "4":
+    if sys.argv[2] == "on":
+        socket_four_on()
+    else:
+        socket_four_off()
+elif sys.argv[1] == "all":
+    if sys.argv[2] == "on":
+        socket_all_on()
+    else:
+        socket_all_off()
 else:
-	if sys.argv[2] == "on":
-		socket_two_on()
-	else:
-		socket_two_off()
+    print "Bad things"
 activate()
 GPIO.cleanup()
